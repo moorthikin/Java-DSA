@@ -1,0 +1,35 @@
+fibbanacci series
+
+for up to n number:
+0 1 1 2 3 5 8 13 21 34 .... n
+a b c  
+
+int n;
+int a = 0;
+int b = 1;
+int c;
+print(a+ ""+b);
+for(i=2;i<n;i++){
+c=a+b;
+a=b;
+b=c;
+print(c)
+
+}
+
+
+given string is palindrome or not 
+
+String word1 = GeeG;
+String word2= "";
+
+for(int i = word.length()-1; i>=0;i--){
+print (word1.charAt(i));
+word2 = word.charAt(i);
+}
+if(word1.equals(word2)){
+print ("The Given Number is Palindrome")
+}
+else{
+print "The Given number is not palindrome"
+}
